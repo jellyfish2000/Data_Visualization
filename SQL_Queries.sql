@@ -1,3 +1,6 @@
+# this adds up how many times the furnace runs each range of dates.the range of dates are then compared to the gas bill of the corresponding range
+
+
 SELECT 'SUM' Date, COUNT(Date)
 FROM Thermostat
 WHERE [System Mode] = 'heatStage1On'
